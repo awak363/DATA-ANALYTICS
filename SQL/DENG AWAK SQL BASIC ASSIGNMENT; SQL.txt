@@ -1,0 +1,15 @@
+SELECT * FROM employees;
+SELECT fname, lname, salary
+FROM employees;
+SELECT DISTINCT position
+FROM jobs;
+SELECT DISTINCT position
+FROM jobs;
+SELECT 
+    fname AS "First Name",
+    lname AS "Last Name",
+    position AS "Role"
+FROM 
+    your_table_name;
+=TEXTJOIN(" ", TRUE, fname, position)
+=TEXTJOIN(" ", TRUE, fname, position)
